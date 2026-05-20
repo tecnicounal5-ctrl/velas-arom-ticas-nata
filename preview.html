@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Velas de Soya Premium | Ciencia, Bienestar y Diseño Sensorial</title>
+  <meta name="description" content="Descubre la guía estratégica para crear velas de soya premium: ciencia, bienestar, tendencias olfativas y fabricación profesional." />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Velas de Soya Premium | Ciencia, Bienestar y Diseño Sensorial" />
+  <meta property="og:description" content="Aprende cómo transformar velas de soya en experiencias sensoriales premium con técnicas profesionales, bienestar y sostenibilidad." />
+  <meta property="og:type" content="website" />
+
+  <!-- Favicon -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🕯️</text></svg>">
+
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            primary: '#D4A373',
+            secondary: '#FAEDCD',
+            darkbg: '#0F172A',
+            accent: '#CCD5AE'
+          }
+        }
+      }
+    }
+  </script>
+
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+    }
+
+    .fade-in {
+      opacity: 0;
+      transform: translateY(40px);
+      transition: all 0.8s ease;
+    }
+
+    .fade-in.visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    .glass {
+      backdrop-filter: blur(12px);
+      background: rgba(255,255,255,0.65);
+    }
+
+    .dark .glass {
+      background: rgba(15,23,42,0.7);
+    }
+
+    .hero-gradient {
+      background:
+        radial-gradient(circle at top left, rgba(212,163,115,0.3), transparent 30%),
+        radial-gradient(circle at bottom right, rgba(204,213,174,0.3), transparent 35%);
+    }
+
+    .faq-content {
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.4s ease;
+    }
+  </style>
+</head>
+
+<body class="bg-white text-slate-800 dark:bg-darkbg dark:text-white transition-colors duration-500">
+
+  <!-- HEADER -->
+  <header class="fixed top-0 left-0 w-full z-50 border-b border-slate-200 dark:border-slate-700 bg-white/80 dark:bg-slate-900/80 backdrop-blur-lg">
+    <div class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
+      <h1 class="text-xl md:text-2xl font-bold tracking-tight text-primary">
+        🕯️ Velas de Soya Premium
+      </h1>
+
+      <nav class="hidden md:flex gap-8 text-sm font-medium">
+        <a href="#inicio" class="hover:text-primary transition">Inicio</a>
+        <a href="#beneficios" class="hover:text-primary transition">Beneficios</a>
+        <a href="#sobre" class="hover:text-primary transition">Sobre el Tema</a>
+        <a href="#faq" class="hover:text-primary transition">FAQ</a>
+      </nav>
+
+      <button id="themeToggle"
+        class="bg-slate-200 dark:bg-slate-700 p-2 rounded-full hover:scale-110 transition">
+        🌙
+      </button>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section id="inicio"
+    class="hero-gradient min-h-screen flex items-center pt-28 fade-in">
+    <div class="max-w-7xl mx-auto px-6 grid lg:grid-cols-2 gap-12 items-center">
+
+      <div>
+        <span class="inline-block bg-primary/10 text-primary px-4 py-2 rounded-full text-sm font-semibold mb-5">
+          Ciencia · Bienestar · Exclusividad
+        </span>
+
+        <h2 class="text-5xl md:text-6xl font-black leading-tight mb-6">
+          La nueva generación de
+          <span class="text-primary">velas de soya</span>
+          para marcas y experiencias premium
+        </h2>
+
+        <p class="text-lg md:text-xl text-slate-600 dark:text-slate-300 leading-relaxed mb-8">
+          La fabricación de velas de soya ha evolucionado de un oficio artesanal a una respuesta estratégica frente a la demanda de sostenibilidad y exclusividad. Gracias a su combustión limpia, eficiencia aromática superior y origen vegetal biodegradable, representan el estándar moderno del bienestar sensorial y el diseño consciente.
+        </p>
+
+        <div class="flex flex-wrap gap-4">
+          <a href="https://wa.me/573107977825"
+            target="_blank"
+            class="bg-primary hover:bg-amber-700 text-white px-8 py-4 rounded-full font-semibold transition transform hover:scale-105 shadow-lg">
+            Solicitar Asesoría
+          </a>
+
+          <a href="#beneficios"
+            class="border border-slate-300 dark:border-slate-600 hover:border-primary px-8 py-4 rounded-full font-semibold transition">
+            Explorar Beneficios
+          </a>
+        </div>
+      </div>
+
+      <div class="relative">
+        <div class="glass rounded-3xl p-8 shadow-2xl border border-white/20">
+          <div class="grid grid-cols-2 gap-6">
+
+            <div class="bg-white dark:bg-slate-800 rounded-2xl p-5 shadow-lg">
+              <div class="text-4xl mb-4">🌿</div>
+              <h3 class="font-bold mb-2">98%</h3>
+              <p class="text-sm text-slate-600 dark:text-slate-300">
+                Reducción de hidrocarburos vs parafina.
+              </p>
+            </div>
+
+            <div class="bg-white dark:bg-slate-800 rounded-2xl p-5 shadow-lg">
+              <div class="text-4xl mb-4">🔥</div>
+              <h3 class="font-bold mb-2">+100%</h3>
+              <p class="text-sm text-slate-600 dark:text-slate-300">
+                Mayor duración de quemado.
+              </p>
+            </div>
+
+            <div class="bg-white dark:bg-slate-800 rounded-2xl p-5 shadow-lg">
+              <div class="text-4xl mb-4">🧘</div>
+              <h3 class="font-bold mb-2">Wellness</h3>
+              <p class="text-sm text-slate-600 dark:text-slate-300">
+                Ambientes limpios y terapéuticos.
+              </p>
+            </div>
+
+            <div class="bg-white dark:bg-slate-800 rounded-2xl p-5 shadow-lg">
+              <div class="text-4xl mb-4">✨</div>
+              <h3 class="font-bold mb-2">Premium</h3>
+              <p class="text-sm text-slate-600 dark:text-slate-300">
+                Experiencia sensorial sofisticada.
+              </p>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- BENEFICIOS -->
+  <section id="beneficios" class="py-24 fade-in">
+    <div class="max-w-7xl mx-auto px-6">
+
+      <div class="text-center mb-16">
+        <h2 class="text-4xl md:text-5xl font-bold mb-6">
+          Beneficios que redefinen el mercado
+        </h2>
+
+        <p class="max-w-3xl mx-auto text-lg text-slate-600 dark:text-slate-300">
+          La cera de soya combina rendimiento técnico, sostenibilidad y bienestar para ofrecer una experiencia superior.
+        </p>
+      </div>
+
+      <div class="grid md:grid-cols-3 gap-8">
+
+        <!-- CARD 1 -->
+        <div class="group bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 rounded-3xl p-8 shadow-lg hover:shadow-2xl transition hover:-translate-y-2">
+          <div class="w-16 h-16 rounded-2xl bg-primary/10 flex items-center justify-center text-3xl mb-6">
+            ⏳
+          </div>
+
+          <h3 class="text-2xl font-bold mb-4">
+            Durabilidad y Rendimiento
+          </h3>
+
+          <p class="text-slate-600 dark:text-slate-300 leading-relaxed">
+            Gracias a su bajo punto de fusión, las velas de soya duran entre un 50% y el doble de tiempo que las de parafina, optimizando la inversión del cliente y elevando la percepción de valor premium.
+          </p>
+        </div>
+
+        <!-- CARD 2 -->
+        <div class="group bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 rounded-3xl p-8 shadow-lg hover:shadow-2xl transition hover:-translate-y-2">
+          <div class="w-16 h-16 rounded-2xl bg-primary/10 flex items-center justify-center text-3xl mb-6">
+            🌱
+          </div>
+
+          <h3 class="text-2xl font-bold mb-4">
+            Pureza Ambiental
+          </h3>
+
+          <p class="text-slate-600 dark:text-slate-300 leading-relaxed">
+            Elaboradas a partir de recursos renovables y libres de tóxicos, ofrecen una combustión limpia sin hollín ni humo negro, preservando la calidad del aire y el bienestar interior.
+          </p>
+        </div>
+
+        <!-- CARD 3 -->
+        <div class="group bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 rounded-3xl p-8 shadow-lg hover:shadow-2xl transition hover:-translate-y-2">
+          <div class="w-16 h-16 rounded-2xl bg-primary/10 flex items-center justify-center text-3xl mb-6">
+            💆
+          </div>
+
+          <h3 class="text-2xl font-bold mb-4">
+            Versatilidad Terapéutica
+          </h3>
+
+          <p class="text-slate-600 dark:text-slate-300 leading-relaxed">
+            Su baja temperatura de combustión permite formular velas de masaje con aceites esenciales, manteca de Karité y vitamina E, transformando la cera fundida en un aceite hidratante de lujo.
+          </p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- SOBRE -->
+  <section id="sobre" class="py-24 bg-secondary/30 dark:bg-slate-900 fade-in">
+    <div class="max-w-7xl mx-auto px-6">
+
+      <div class="grid lg:grid-cols-2 gap-16 items-center">
+
+        <div>
+          <span class="text-primary font-semibold uppercase tracking-widest">
+            Datos y Ciencia Aplicada
+          </span>
+
+          <h2 class="text-4xl md:text-5xl font-bold mt-4 mb-8">
+            La precisión técnica detrás de una vela premium
+          </h2>
+
+          <div class="space-y-6 text-lg text-slate-700 dark:text-slate-300 leading-relaxed">
+
+            <div class="flex gap-4">
+              <div class="text-2xl">🔥</div>
+              <p>
+                Derretimiento ideal entre <strong>75°C y 80°C</strong> para evitar degradación térmica.
+              </p>
+            </div>
+
+            <div class="flex gap-4">
+              <div class="text-2xl">🌡️</div>
+              <p>
+                Integración aromática recomendada a <strong>85°C</strong> para un anclaje molecular homogéneo.
+              </p>
+            </div>
+
+            <div class="flex gap-4">
+              <div class="text-2xl">🧪</div>
+              <p>
+                La carga aromática óptima para ceras premium oscila entre <strong>6% y 8%</strong>.
+              </p>
+            </div>
+
+            <div class="flex gap-4">
+              <div class="text-2xl">🕯️</div>
+              <p>
+                Curado mínimo de <strong>48 horas</strong>, idealmente de <strong>5 a 14 días</strong> para maximizar el Hot Throw.
+              </p>
+            </div>
+
+            <div class="flex gap-4">
+              <div class="text-2xl">🌿</div>
+              <p>
+                Reducción del <strong>98% en hidrocarburos</strong> frente a velas tradicionales de parafina.
+              </p>
+            </div>
+
+            <div class="flex gap-4">
+              <div class="text-2xl">📜</div>
+              <p>
+                Las marcas premium deben cumplir con normativas de seguridad como <strong>CLP</strong>, <strong>GPSR</strong> y contar con <strong>FDS</strong>.
+              </p>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="relative">
+          <div class="bg-white dark:bg-slate-800 rounded-3xl shadow-2xl p-10 border border-slate-200 dark:border-slate-700">
+            <h3 class="text-3xl font-bold mb-8">
+              Tendencias Sensoriales 2026
+            </h3>
+
+            <div class="space-y-6">
+
+              <div class="p-5 rounded-2xl bg-slate-100 dark:bg-slate-700">
+                <h4 class="font-bold mb-2 text-primary">
+                  Relajación · Azul / Verde
+                </h4>
+                <p>
+                  Cedro, Mandarina, Lavanda y Eucalipto para crear espacios calmantes y restaurativos.
+                </p>
+              </div>
+
+              <div class="p-5 rounded-2xl bg-slate-100 dark:bg-slate-700">
+                <h4 class="font-bold mb-2 text-primary">
+                  Energía · Amarillo / Cítricos
+                </h4>
+                <p>
+                  Menta, Naranja y Jengibre impulsan vitalidad y enfoque emocional.
+                </p>
+              </div>
+
+              <div class="p-5 rounded-2xl bg-slate-100 dark:bg-slate-700">
+                <h4 class="font-bold mb-2 text-primary">
+                  Gourmands Sofisticados
+                </h4>
+                <p>
+                  Pistacho, café ahumado, vainilla cremosa, té blanco, matcha e higo dominarán las experiencias premium.
+                </p>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section id="faq" class="py-24 fade-in">
+    <div class="max-w-5xl mx-auto px-6">
+
+      <div class="text-center mb-16">
+        <h2 class="text-4xl md:text-5xl font-bold mb-6">
+          Preguntas Frecuentes
+        </h2>
+
+        <p class="text-lg text-slate-600 dark:text-slate-300">
+          Educación técnica para garantizar experiencias aromáticas impecables.
+        </p>
+      </div>
+
+      <div class="space-y-5">
+
+        <!-- FAQ ITEM -->
+        <div class="faq-item border border-slate-200 dark:border-slate-700 rounded-2xl overflow-hidden">
+          <button class="faq-btn w-full flex justify-between items-center p-6 text-left font-semibold text-lg hover:bg-slate-50 dark:hover:bg-slate-800 transition">
+            ¿Por qué mi vela no huele al encenderla?
+            <span>+</span>
+          </button>
+
+          <div class="faq-content px-6">
+            <div class="pb-6 text-slate-600 dark:text-slate-300">
+              Generalmente se debe a un tiempo de curado insuficiente o a una mecha pequeña que no genera una piscina de quemado adecuada para evaporar correctamente la fragancia.
+            </div>
+          </div>
+        </div>
+
+        <!-- FAQ ITEM -->
+        <div class="faq-item border border-slate-200 dark:border-slate-700 rounded-2xl overflow-hidden">
+          <button class="faq-btn w-full flex justify-between items-center p-6 text-left font-semibold text-lg hover:bg-slate-50 dark:hover:bg-slate-800 transition">
+            ¿Qué es el leaching y cómo se evita?
+            <span>+</span>
+          </button>
+
+          <div class="faq-content px-6">
+            <div class="pb-6 text-slate-600 dark:text-slate-300">
+              Es la aparición de gotas de aceite sobre la superficie. Se produce por exceso de carga aromática o mezcla incorrecta. La solución es mantener una carga entre 6% y 8% y mezclar alrededor de 85°C.
+            </div>
+          </div>
+        </div>
+
+        <!-- FAQ ITEM -->
+        <div class="faq-item border border-slate-200 dark:border-slate-700 rounded-2xl overflow-hidden">
+          <button class="faq-btn w-full flex justify-between items-center p-6 text-left font-semibold text-lg hover:bg-slate-50 dark:hover:bg-slate-800 transition">
+            ¿Puedo usar aceites esenciales?
+            <span>+</span>
+          </button>
+
+          <div class="faq-content px-6">
+            <div class="pb-6 text-slate-600 dark:text-slate-300">
+              Sí. Son ideales para aromaterapia, pero requieren un control térmico preciso y revisión del Flash Point para conservar sus propiedades terapéuticas.
+            </div>
+          </div>
+        </div>
+
+        <!-- FAQ ITEM -->
+        <div class="faq-item border border-slate-200 dark:border-slate-700 rounded-2xl overflow-hidden">
+          <button class="faq-btn w-full flex justify-between items-center p-6 text-left font-semibold text-lg hover:bg-slate-50 dark:hover:bg-slate-800 transition">
+            ¿Por qué la superficie queda irregular?
+            <span>+</span>
+          </button>
+
+          <div class="faq-content px-6">
+            <div class="pb-6 text-slate-600 dark:text-slate-300">
+              Es una característica natural de la soya. Puede minimizarse vertiendo a 57°C y evitando corrientes de aire durante el proceso de enfriamiento.
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="py-24 bg-primary text-white fade-in">
+    <div class="max-w-4xl mx-auto px-6 text-center">
+
+      <h2 class="text-4xl md:text-5xl font-black mb-6">
+        Lleva tu marca aromática al siguiente nivel
+      </h2>
+
+      <p class="text-xl mb-10 text-white/90">
+        Combina ciencia, sostenibilidad y diseño emocional para crear experiencias que transforman espacios y conectan con consumidores premium.
+      </p>
+
+      <a href="https://wa.me/573107977825"
+        target="_blank"
+        class="inline-flex items-center gap-3 bg-white text-primary px-10 py-5 rounded-full font-bold text-lg hover:scale-105 transition shadow-2xl">
+        💬 Hablar por WhatsApp
+      </a>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="py-10 border-t border-slate-200 dark:border-slate-700">
+    <div class="max-w-7xl mx-auto px-6 flex flex-col md:flex-row items-center justify-between gap-4">
+
+      <p class="text-slate-500 dark:text-slate-400 text-sm">
+        © 2026 Velas de Soya Premium. Todos los derechos reservados.
+      </p>
+
+      <div class="flex gap-5 text-xl">
+        <a href="#" class="hover:text-primary transition">📷</a>
+        <a href="#" class="hover:text-primary transition">🎵</a>
+        <a href="#" class="hover:text-primary transition">📘</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- FLOATING WHATSAPP -->
+  <a href="https://wa.me/573107977825"
+    target="_blank"
+    class="fixed bottom-6 right-6 z-50 bg-green-500 hover:bg-green-600 text-white w-16 h-16 rounded-full flex items-center justify-center shadow-2xl text-3xl transition transform hover:scale-110">
+    💬
+  </a>
+
+  <!-- SCRIPTS -->
+  <script>
+    // DARK MODE
+    const html = document.documentElement;
+    const toggleBtn = document.getElementById('themeToggle');
+
+    if (localStorage.getItem('theme') === 'dark') {
+      html.classList.add('dark');
+      toggleBtn.textContent = '☀️';
+    }
+
+    toggleBtn.addEventListener('click', () => {
+      html.classList.toggle('dark');
+
+      if (html.classList.contains('dark')) {
+        localStorage.setItem('theme', 'dark');
+        toggleBtn.textContent = '☀️';
+      } else {
+        localStorage.setItem('theme', 'light');
+        toggleBtn.textContent = '🌙';
+      }
+    });
+
+    // FAQ ACCORDION
+    const faqBtns = document.querySelectorAll('.faq-btn');
+
+    faqBtns.forEach(btn => {
+      btn.addEventListener('click', () => {
+        const content = btn.nextElementSibling;
+        const icon = btn.querySelector('span');
+
+        if (content.style.maxHeight) {
+          content.style.maxHeight = null;
+          icon.textContent = '+';
+        } else {
+          content.style.maxHeight = content.scrollHeight + 'px';
+          icon.textContent = '−';
+        }
+      });
+    });
+
+    // FADE IN ON SCROLL
+    const observer = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+        }
+      });
+    }, {
+      threshold: 0.1
+    });
+
+    document.querySelectorAll('.fade-in').forEach(section => {
+      observer.observe(section);
+    });
+  </script>
+
+</body>
+</html>
